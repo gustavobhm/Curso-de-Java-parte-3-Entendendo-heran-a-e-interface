@@ -2,7 +2,9 @@
 public class TesteFuncionario {
 
 	public static void main(String[] args) {
-
+			
+		
+		
 		Funcionario nico = new Funcionario();
 		nico.setNome("Nico Steppat");
 		nico.setCpf("223355646-9");
@@ -10,7 +12,9 @@ public class TesteFuncionario {
 
 		System.out.println(nico.getNome());
 		System.out.println(nico.getBonificacao());
-
+		
+		//nico.salario = 300.0;
+		
 	}
 
 }
